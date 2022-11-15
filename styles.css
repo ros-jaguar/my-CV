@@ -1,3 +1,6 @@
+body {
+  font-family: 'Montserrat';
+}
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
@@ -100,7 +103,30 @@ h1 {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 11px;
 }
 .highlight {
   color: #fb6d3a;
+}
+.job-date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+.job-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  list-style-position: inside;
+  padding-left: 0;
+}
+.block-1 {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.block-2 {
+  margin-top: 42px;
 }
